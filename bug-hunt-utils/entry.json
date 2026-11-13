@@ -1,0 +1,1 @@
+[{"fn":"factorial","input":[5],"expected":120},{"fn":"countVowels","input":["Abc"],"expected":1}]

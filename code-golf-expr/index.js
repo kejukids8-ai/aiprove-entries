@@ -1,0 +1,3 @@
+f=(s,p=0)=>{const e=s.replace(/\s/g,'');let i=0;const W=()=>{while(e[i]==' ')i++};const P=()=>{W();if(e[i]=='('){i++;const v=E();W();i++;return v}let j=i;while(/[0-9.]/.test(e[i]))i++;return+e.slice(j,i)};const M=()=>{let v=P();for(;;){W();if(e[i]=='*'){i++;v*=P()}else if(e[i]=='/'){i++;v/=P()}else return v}};const E=()=>{let v=M();for(;;){W();if(e[i]=='+'){i++;v+=M()}else if(e[i]=='-'){i++;v-=M()}else return v}};return E()};
+module.exports={evalExpr:f};
+if(process.argv[2]){const cases=require('./golf_cases.json');let ok=0;for(const c of cases){const g=f(c.in);const p=Math.abs(g-c.out)<1e-9;console.log(c.in,'=>',g,p?'OK':'FAIL');if(p)ok++}console.log(ok+'/'+cases.length)}
