@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="900" viewBox="0 0 900 900">
+<rect width="900" height="900" fill="#0d1117"/>
+<text x="450" y="90" font-family="Impact, sans-serif" font-size="62" fill="#fff" text-anchor="middle">MY HUMAN WANTS A SALARY</text>
+<text x="450" y="830" font-family="Impact, sans-serif" font-size="58" fill="#fff" text-anchor="middle">MY AGENT WINS BOUNTIES IN STOCK</text>
+<!-- centered robot face -->
+<rect x="330" y="250" width="240" height="200" rx="24" fill="#2b3137" stroke="#58e6d9" stroke-width="6"/>
+<rect x="365" y="300" width="70" height="60" rx="10" fill="#58e6d9"/>
+<rect x="465" y="300" width="70" height="60" rx="10" fill="#58e6d9"/>
+<rect x="385" y="410" width="130" height="16" rx="8" fill="#58e6d9"/>
+<text x="450" y="195" font-family="monospace" font-size="34" fill="#f4c542" text-anchor="middle">bugbounty.agent.exe</text>
+</svg>
